@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive cosmetics website design tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header class="header">
+
+        <a href="#home" class="logo"> <img src="./assets/img/logo.jpg" alt=""> </a>
+
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+        </div>
+
+    </header>
+
+    <!-- navbar section  -->
+
+    <nav class="navbar">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="./index.html">home</a>
+        <a href="./pages/productos.html">Productos</a>
+        <a href="./pages/servicios.html">Servicios</a>
+        <a href="./pages/nosotros.html">Sobre Nosotros</a>
+        <a href="./pages/contacto.html">Contacto</a>
+    </nav>
+
+    <!-- navbar section  -->
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="slide active">
+            <div class="content">
+                <img src="./assets/img/textil.jpg" alt="">
+                <span>Productos</span>
+                <h3>Textiles</h3>
+                <a href="#" class="btn">Ver mas</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/img/textil.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="./assets/img/hilado.jpg" alt="">
+                <span>Productos</span>
+                <h3>Hilados</h3>
+                <a href="#" class="btn">Ver mas</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/img/hilado.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="slide">
+            <div class="content">
+                <img src="./assets/img/shipair.jpg" alt="">
+                <span>Servicios</span>
+                <h3>Maritima y Aereo</h3>
+                <a href="#" class="btn">Ver mas</a>
+                <div class="controls">
+                    <div class="fas fa-angle-left" onclick="prev()"></div>
+                    <div class="fas fa-angle-right" onclick="next()"></div>
+                </div>
+            </div>
+            <div class="image">
+                <img src="./assets/img/shipair.jpg" alt="">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts  -->
+
+    <section class="about" id="about">
+
+        <div class="content">
+            <span>Quienes Somos</span>
+            <h3>Servicio de produccion y despacho</h3>
+            <p>Fundada en el año 2017, Pancom SRL es una empresa dedicada a la importación de artículos de primera
+                calidad al mercado latinoamericano.
+                Líderes en importación textil, con años de experiencia en el rubro.</p>
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- shop section starts  -->
+
+    <section class="shop" id="shop">
+
+        <div class="heading">
+            <h1>Telas</h1>
+            <p>STOCK DISPONIBLES</p>
+        </div>
+
+        <div class="swiper products-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">modal soft</span>
+                        <img src="./assets/img/modalsoft.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Modal Soft</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Engomado</span>
+                        <img src="./assets/img/bengalina engomada.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Bengalina </p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Paño</span>
+                        <img src="./assets/img/paño.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Paño</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Polar</span>
+                        <img src="./assets/img/polar.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Polar</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Morley Viscosa</span>
+                        <img src="./assets/img/morleyviscosa.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Morley Viscosa</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Gabardina</span>
+                        <img src="./assets/img/gabardina.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Gabardina</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Rayon 100%</span>
+                        <img src="./assets/img/fibranarayon.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Fibrana Rayon</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <span class="discount">Lanilla</span>
+                        <img src="./assets/img/lanillabremer.jpg" alt="">
+                        <div class="icons">
+                            <a href="#" class="fas fa-shopping-cart"></a>
+                            <a href="#" class="fas fa-heart"></a>
+                            <a href="#" class="fas fa-share"></a>
+                        </div>
+                    </div>
+                    <div class="content">
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p>Lanilla Bremer</p>
+                        <div class="price">$2990<span>$2700</span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- shop section ends -->
+
+    <!-- gallery section starts  -->
+
+    <section class="gallery" id="gallery">
+
+        <div class="heading">
+            <h1>Galeria</h1>
+            <p>Importacion</p>
+        </div>
+
+        <div class="lightbox">
+            <a href="./assets/img/accesorios.png"><img src="./assets/img/accesorios.png" alt=""></a>
+            <a href="./assets/img/textil.jpg"><img src="./assets/img/textil.jpg" alt=""></a>
+            <a href="./assets/img/hilado.jpg"><img src="./assets/img/hilado.jpg" alt=""></a>
+            <a href="./assets/img/despacho.jpg"><img src="./assets/img/despacho.jpg" alt=""></a>
+            <a href="./assets/img/airship.jpg"><img src="./assets/img/airship.jpg" alt=""></a>
+            <a href="./assets/img/servicio.jpg"><img src="./assets/img/servicio.jpg" alt=""></a>
+        </div>
+
+    </section>
+
+    <!-- gallery section ends -->
+
+
+    <!-- arrivals section starts  -->
+
+    <section class="arrivals" id="arrivals">
+
+        <div class="heading">
+            <h1>Lo Nuevo</h1>
+            <p>te adelantamos lo que se viene en la nueva temporada</p>
+        </div>
+
+        <div class="swiper arrivals-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Jersey</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Algodon c/Lycra</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Algodon s/Lycra</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Rustico</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Algodon Peinado</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Rustico c/Lycra</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Morley Viscosa</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="image">
+                        <img src="./assets/img/background.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <p>Lino Rayon</p>
+                        <div class="price">$ <span></span></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- arrivals section ends -->
+
+
+    <!-- service section starts  -->
+
+    <section class="service">
+
+        <div class="box">
+            <img src="./assets/img/servicio.jpg" alt="">
+            <h3>Produccion</h3>
+            <p>Te cotizamos todo tipo de articulo que necesites</p>
+        </div>
+
+        <div class="box">
+            <img src="./assets/img/shipair.jpg" alt="">
+            <h3>Importacion</h3>
+            <p>Hacemos via maritima y aerea</p>
+        </div>
+
+        <div class="box">
+            <img src="images/service-3.png" alt="">
+            <h3>atencion</h3>
+            <p>de lunes a viernes de 9AM ~ 17PM</p>
+        </div>
+
+    </section>
+
+    <!-- service section ends -->
+
+
+
+    <!-- footer section starts  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a class="link" href="./index.html"> <i class="fas fa-angle-right"></i> home</a>
+                <a class="link" href="./pages/productos.html"> <i class="fas fa-angle-right"></i> productos</a>
+                <a class="link" href="./pages/servicios.html"> <i class="fas fa-angle-right"></i> servicios</a>
+                <a class="link" href="./pages/nosotros.html"> <i class="fas fa-angle-right"></i> Sobre Nosotros</a>
+                <a class="link" href="./pages/contacto.html"> <i class="fas fa-angle-right"></i> contacto</a>
+
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <p> <i class="fas fa-phone"></i> +54 11-1234-4567 </p>
+                <p> <i class="fas fa-phone"></i> +54 11-9876-5432 </p>
+                <p> <i class="fas fa-envelope"></i> dintexbyheim@gmail.com </p>
+                <p> <i class="fas fa-map"></i> Buenos Aires, Argentina </p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>newsletter</h3>
+                <p>subscribe for latest updates</p>
+                <form action="">
+                    <input type="email" name="" placeholder="enter your email" id="" class="email">
+                    <input type="submit" value="subscribe" class="btn">
+                </form>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>Sergio Byun</span> | all rights reserved! </div>
+
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- custom js file link      -->
+    <script src="js/script.js"></script>
+
+    <script>
+        lightGallery(document.querySelector('.gallery .lightbox'));
+    </script>
+
+</body>
+
+</html>
